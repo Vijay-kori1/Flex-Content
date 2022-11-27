@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-color: rgb(29, 53, 53);
+    height: 700px;
+    width: 1000px;
+}
+header{
+    background-color: blueviolet;
+    height: 130px;
+    display: flex;
+}
+.logo{
+    background-color: rgb(26, 77, 60);
+    height: 130px;
+    width: 150px;
+}
+.head{
+    background-color: burlywood;
+    height: 80px;
+    width: 850px;
+}
+menu{
+    background-color: chartreuse;
+    height: 50px;
+    width: 850px;
+}
+.container{
+    background-color: aqua;
+    height: 600px;
+    display: flex;
+}
+aside{
+    background-color: yellowgreen;
+    height: 600px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.box1{
+    background-color: violet;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+.box2{
+    background-color: tomato;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50px;
+}
+.box3{
+    background-color: rgb(83, 18, 7);
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 0px 40px;
+}
+.content{
+    height: 600px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+.con1{
+    background-color: yellow;
+    height: 600px;
+    width: 200px;
+
+}
+.con2{
+    background-color: rgb(62, 62, 38);
+    height: 600px;
+    width: 200px;
+}
+.con3{
+    background-color: rgb(255, 0, 221);
+    height: 600px;
+    width: 200px;
+}
+
+footer{
+    background-color: darkgray;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.item1{
+    border: solid;
+    background-color: bisque;
+    height: 80px;
+    width: 200px;
+}
+.item2{
+    border: solid;
+    background-color: rgb(216, 159, 89);
+    height: 80px;
+    width: 200px;
+}
+.item3{
+    border: solid;
+    background-color: teal;
+    height: 80px;
+    width: 200px;
+}
