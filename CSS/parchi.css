@@ -1,0 +1,69 @@
+main{
+    display: flex;
+}
+.main2{
+    flex-grow: 8;
+    border: solid;
+    border-color: gray;
+    margin-left: 10px;
+}
+aside{
+    flex-grow: 2;
+    background-color: gray;
+}
+li{
+    list-style: none;
+}
+li a{
+    color: darkmagenta;
+}
+header{
+    /* background-color: aqua; */
+    flex-grow: 8;
+}
+.login{
+    display: flex;
+    justify-content: end;
+}
+.login li{
+    list-style: none;
+    padding: 10px;
+}
+.arta{
+    display: flex;
+}
+.arta li{
+    list-style: none;
+    padding: 6px;
+    border: solid;
+    border-color: gray;
+}
+menu{
+    display: flex;
+    justify-content: space-between;
+}
+.li2{
+    display: flex;
+}
+.li2 li{
+    list-style: none;
+    padding: 10px;
+}
+.San{
+    border: solid;
+    border-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.p{
+    /* flex-basis: 900px; */
+}
+.img{
+    background-color: gray;
+}
+
