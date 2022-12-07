@@ -1,25 +1,28 @@
 main{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 .main2{
-    flex-grow: 8;
-    flex-basis: 800px;
+    flex-grow: 20;
+    flex-basis: 500px;
     border: solid;
     border-color: gray;
     margin-left: 10px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 aside{
-    /* flex-grow: 2; */
-    flex-basis: 300px;
+    flex-grow: 2;
+    flex-basis: 100px;
     background-color: gray;
-
 }
-li{
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
     list-style: none;
 }
-li a{
+ul li a{
     color: darkmagenta;
 }
 header{
@@ -46,6 +49,7 @@ header{
 menu{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .li2{
     display: flex;
@@ -62,15 +66,23 @@ menu{
 }
 .container2{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 5px;
 }
 .p{
-    /* flex-basis: 900px; */
+    flex-basis: 400px;
+    flex-grow: 2;
 }
 .img{
     background-color: gray;
+    flex-basis: 100px;
+    flex-grow: 1;
+    justify-content: center;
+}
+img{
+    max-width: 300px;
+    /* margin-left: 20px; */
 }
 
