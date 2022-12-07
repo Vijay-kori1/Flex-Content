@@ -1,15 +1,20 @@
 main{
     display: flex;
+    /* flex-wrap: wrap; */
 }
 .main2{
     flex-grow: 8;
+    flex-basis: 800px;
     border: solid;
     border-color: gray;
     margin-left: 10px;
+    /* flex-wrap: wrap; */
 }
 aside{
-    flex-grow: 2;
+    /* flex-grow: 2; */
+    flex-basis: 300px;
     background-color: gray;
+
 }
 li{
     list-style: none;
@@ -57,6 +62,8 @@ menu{
 }
 .container2{
     display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
     justify-content: space-between;
     margin-top: 5px;
 }
